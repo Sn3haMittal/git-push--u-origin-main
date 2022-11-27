@@ -1,0 +1,38 @@
+.header {
+    padding: 8px 32px 8px 16px;
+    background: #222;
+    height:  36px;
+   
+}
+
+.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: App-logo-spin 8s linear infinite;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: fl(0deg)
+    }
+    to{
+        transform: rotate(180deg);
+    }
+    
+}
+
+.login{
+    float: right;
+}
+
+.logout{
+    float: right;
+}
+
+.bookShow{
+    float: right;
+}
+.modal{
+    height: 400px;
+    width: 200px;
+}
